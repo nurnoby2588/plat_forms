@@ -1,32 +1,68 @@
 /* Default styles for navbar items (desktop view) */
-        .navbar__item {
-            border: 1px solid #6c757d; /* Secondary border color */
-            border-radius: 50px;
-        }
+.navbar__item {
+    border: 1px solid #6c757d;
+    /* Secondary border color */
+    border-radius: 50px;
+}
 
-        /* Remove borders on all navbar items except search input in mobile view */
-        @media (max-width: 988px) {
-            .navbar__item {
-                border: none;
-            }
+/* Remove borders on all navbar items except search input in mobile view */
+@media (max-width: 988px) {
+    .navbar__item {
+        border: none;
+    }
 
-            .navbar__search-input {
-                border: 1px solid  #6c757d!important; /* Keep border for search input */
-            }
-        }
+    .navbar__search-input {
+        border: 1px solid #6c757d !important;
+        /* Keep border for search input */
+    }
+}
 
-        /* Adjust navbar brand image size */
-        .navbar__brand img {
-            width: 100px;
-        }
+/* Adjust navbar brand image size */
+.navbar__brand img {
+    width: 100px;
+}
 
-        /* Adjust shopping bag icon size */
-        .navbar__item img {
-            width: 20px;
-            height: 20px;
-        }
+/* Adjust shopping bag icon size */
+.navbar__item img {
+    width: 20px;
+    height: 20px;
+}
 
-        /* Add spacing to search input */
-        .navbar__search-input {
-            padding-right: 2rem;
-        }
+/* Add spacing to search input */
+.navbar__search-input {
+    padding-right: 2rem;
+}
+
+/* Carousel customization */
+
+
+
+
+
+
+
+/* Custom navigation dots */
+
+
+/* Custom button style */
+.custom-button {
+    width: 150px;
+    height: 36.35px;
+    position: absolute;
+    top: 671.41px;
+    left: 901.87px;
+    transform: translateY(-50%);
+    /* z-index: 10; */
+    /* background-color: #000; */
+    /* color: #fff; */
+    /* border-radius: 50%; */
+    /* padding: 10px; */
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.custom-img {
+    width: 366px;
+    height: 100%;
+}
+
