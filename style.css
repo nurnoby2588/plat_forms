@@ -1,0 +1,32 @@
+/* Default styles for navbar items (desktop view) */
+        .navbar__item {
+            border: 1px solid #6c757d; /* Secondary border color */
+            border-radius: 50px;
+        }
+
+        /* Remove borders on all navbar items except search input in mobile view */
+        @media (max-width: 988px) {
+            .navbar__item {
+                border: none;
+            }
+
+            .navbar__search-input {
+                border: 1px solid  #6c757d!important; /* Keep border for search input */
+            }
+        }
+
+        /* Adjust navbar brand image size */
+        .navbar__brand img {
+            width: 100px;
+        }
+
+        /* Adjust shopping bag icon size */
+        .navbar__item img {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Add spacing to search input */
+        .navbar__search-input {
+            padding-right: 2rem;
+        }
