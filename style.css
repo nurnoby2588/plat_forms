@@ -66,3 +66,34 @@
     height: 100%;
 }
 
+
+@media screen and (min-width:568px) {
+    .cards_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom_card {
+        margin: 0 .5em;
+        width: 20rem ;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .custom_card{
+        margin: 0 auto;
+        width: 20rem ;
+    }
+    .custom_card:not(:first-child) {
+        display: none;
+    }
+}
+.img_wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.custom-spacing {
+    margin: 0; /* Removes extra margin */
+    padding: 0; /* Removes extra padding */
+    line-height: 1.5; /* Adjusts the line height to make the text more compact */
+}
